@@ -95,3 +95,11 @@ body {
 .carousel-caption{
   text-shadow: 2px 2px #707070;
 }
+
+@media (min-width: 400px) and (max-width: 1024px) {
+  .carousel-item img {
+    height: 600px;    /* промени на каквото искаш */
+    object-fit: cover;
+  }
+
+}
