@@ -1,0 +1,120 @@
+body {
+    background-color: #1C1C1C;  
+    color: #ffffff;        
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600; 
+}
+
+/* Bootstrap елементи в сиво */
+.bg-primary,
+.bg-secondary,
+.btn-primary,
+.btn-secondary,
+.navbar,
+.footer {
+    background-color: #1C1C1C !important;  /* по-тъмно сиво */
+    border-color: #1C1C1C !important;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #383838 !important;
+}
+
+.carousel-item img {
+    height: 720px;    /* промени на каквото искаш */
+    object-fit: cover;
+}
+
+.navbar-brand,
+.nav-link{
+  color: #ffffff;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon{
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.opacity-75{
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.hero-img {
+    height: 420px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 2.95); 
+}
+
+.navbar .nav-link.active {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;                
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    background-color: #1C1C1C !important;   
+    color: #ffffff !important;                 
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    background-color: #1C1C1C !important;   
+    color: #ffffff !important;                 
+}
+
+.navbar-brand{
+   background-color: #1C1C1C !important;   
+    color: #ffffff !important; 
+}
+
+.footer-img{
+  display: block;
+  margin: auto;
+  width: 40px;
+  margin-top: 30px;
+}
+.footer-text{
+  text-align: center;
+}
+
+/* .carousel-caption{
+  text-shadow: 2px 2px #000000;
+} */
+
+.carousel-caption p{
+  font-size: 25px;
+  
+}
+
+.blur{
+  backdrop-filter: blur(5px);
+}
+
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  .carousel-item img {
+    height: 550px;
+    object-fit: cover;
+  }
+
+  .carousel-caption p{
+    color: #ffffff;
+    font-size: 13px;
+  }
+}

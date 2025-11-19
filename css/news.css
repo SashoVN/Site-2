@@ -1,7 +1,8 @@
 body {
     background-color: #1C1C1C;  
-    color: #ffffff;                
-    
+    color: #ffffff;        
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600; 
 }
 
 /* Bootstrap елементи в сиво */
@@ -92,28 +93,9 @@ body {
   text-align: center;
 }
 
-/* .carousel-caption{
-  text-shadow: 2px 2px #000000;
-} */
 
-.carousel-caption p{
-  font-size: 25px;
-  
-}
-
-.blur{
-  backdrop-filter: blur(5px);
-}
 
 
 @media (min-width: 300px) and (max-width: 1024px) {
-  .carousel-item img {
-    height: 550px;
-    object-fit: cover;
-  }
 
-  .carousel-caption p{
-    color: #ffffff;
-    font-size: 13px;
-  }
 }
